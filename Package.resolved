@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "libssh2-apple",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mfcollins3/libssh2-apple.git",
+      "state" : {
+        "revision" : "646fe3ea5a14b1414595f0fc87370385d60c580e",
+        "version" : "0.1.1"
+      }
+    },
+    {
+      "identity" : "openssl-apple",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mfcollins3/openssl-apple.git",
+      "state" : {
+        "revision" : "d5abe4124f62f118aa305e3cb07c0d370fe49191",
+        "version" : "0.1.1"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -1,6 +1,6 @@
 [submodule "External/libgit2"]
 	path = External/libgit2
 	url = https://github.com/libgit2/libgit2.git
-[submodule "external/ios-cmake"]
-	path = external/ios-cmake
+[submodule "External/ios-cmake"]
+	path = External/ios-cmake
 	url = https://github.com/leetal/ios-cmake.git
