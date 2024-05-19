@@ -37,7 +37,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/mfcollins3/libssh2-apple.git",
-            .upToNextMajor(from: "0.1.0")
+            .upToNextMajor(from: "0.2.0")
         )
     ],
     targets: [
@@ -59,8 +59,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "libgit2",
-            url: "https://github.com/mfcollins3/libgit2-apple/releases/download/0.1.0/libgit2.zip",
-            checksum: "488ea08d20ea4a651f56d271e8f793e92f07dd03e77447ab8dfd8846680a9cae"
+            url: "https://github.com/mfcollins3/libgit2-apple/releases/download/0.2.0/libgit2.zip",
+            checksum: "c1ea51a12cd8560f8d4fe5df2efd0cc8c6ff1aa87b86534a409d271746eb5223"
         )
     ]
 )
