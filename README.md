@@ -21,7 +21,7 @@ This Swift package supports the following platforms:
 
 ## Building libgit2
 
-:warning: Building libgit2 requires you to have installed and build the following prerequisite frameworks first:
+:warning: Building libgit2 requires you to have installed and built the following prerequisite frameworks first:
 
 - [OpenSSL](https://github.com/mfcollins3/openssl-apple)
 - [libssh2](https://github.com/mfcollins3/libssh2-apple)
@@ -30,11 +30,11 @@ The build process for libgit2 assumes that OpenSSL and libssh2 are siblings in t
 
 If you need to build libgit2 yourself, I have provided the [build.sh](build.sh) program to automate the process. This program will build libgit2 for all supported platforms and will produce the XCFramework containing the libraries and header files for each platform.
 
-This repository includes the source code for libgit2 as a Git submodule. To begin, you need to close the repository and load the submodules:
+This repository includes the source code for libgit2 as a Git submodule. To begin, you need to clone the repository and load the submodules:
 
 ```sh
 git clone https://github.com/mfcollins3/libgit2-apple.git
-cd libssh2-apple
+cd libgit2-apple
 git submodule init
 git submodule update
 ```
